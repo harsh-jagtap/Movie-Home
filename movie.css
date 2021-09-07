@@ -30,7 +30,7 @@ section {
     margin-bottom: 50px;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     border: 2px solid black;
 }
 
@@ -80,4 +80,16 @@ section {
     border-radius: 2px;
     font-size: 16px;
     font-weight: 900;
+}
+
+@media only screen and (max-width:1060px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:707px) {
+    .search {
+        text-align: center;
+    }
 }

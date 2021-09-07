@@ -1,4 +1,6 @@
 console.log("Wel-come to Harshree Movie also called as Harshree Development");
+
+// let url = "../Movie Data/data.json";
 let url = "https://harsh-jagtap.github.io/Movie-Data/data.json";
 let repleBody = document.querySelector("#repleBody")
 
