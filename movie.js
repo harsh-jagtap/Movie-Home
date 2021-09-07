@@ -14,7 +14,7 @@ fetch(url).then(function(resp) {
                             <div class="name">${key.name}</div>
                             <div class="releaseDate">${key.ReleaseDate} </div>
                             <div class="size">${key.size}mb</div>
-                            <a href="interface.html?id=${key.id}" target="_blank">
+                            <a href="https://harsh-jagtap.github.io/Movie-Interface/?id=${key.id}" target="_blank">
                                 <button class="download-btn"> Download movie here </button>
                             </a>
                         </div>
