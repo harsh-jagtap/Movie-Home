@@ -1,0 +1,83 @@
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body */
+
+body {
+    padding-bottom: 30px;
+}
+
+
+/* sementic tags */
+
+header {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 30px;
+}
+
+section {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 2px solid black;
+}
+
+
+/* main */
+
+
+/* search */
+
+.search {
+    text-align: end;
+}
+
+.search-bar {
+    padding: 5px;
+}
+
+.search-btn {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+/* box */
+
+.box {
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.img {
+    width: 100%;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.download-btn {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #0d6efd;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 900;
+}
